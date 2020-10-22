@@ -5,12 +5,12 @@ kind: Namespace
 metadata:
   name: devops-tools
 
----
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: default
-  namespace: devops-tools
+# ---
+# apiVersion: v1
+# kind: ServiceAccount
+# metadata:
+#   name: default
+#   namespace: devops-tools
 
 ---
 apiVersion: rbac.authorization.k8s.io/v1beta1
