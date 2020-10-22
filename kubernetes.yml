@@ -28,19 +28,19 @@ subjects:
   
 ---
   
-#### Creating the volume for data persistence
-apiVersion: v1
-kind: PersistentVolume
-metadata:
-  name: jenkins-home
-  namespace: devops-tools
-spec:
-  accessModes:
-    - ReadWriteOnce
-  capacity:
-    storage: 2Gi
-  hostPath:
-    path: /data/jenkins-home/
+# #### Creating the volume for data persistence
+# apiVersion: v1
+# kind: PersistentVolume
+# metadata:
+#   name: jenkins-home
+#   namespace: devops-tools
+# spec:
+#   accessModes:
+#     - ReadWriteOnce
+#   capacity:
+#     storage: 2Gi
+#   hostPath:
+#     path: /data/jenkins-home/
   
 ---
   
