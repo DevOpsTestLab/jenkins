@@ -134,16 +134,16 @@ spec:
       targetPort: 50000
       name: slaves
   
----
+# ---
 
-apiVersion: extensions/v1beta1
-kind: Ingress
-metadata:
-  name: jenkins
-  namespace: devops-tools
-spec:
-  tls:
-  - secretName: tls
-  backend:
-    serviceName: jenkins-ui
-    servicePort: 8080
+# apiVersion: extensions/v1beta1
+# kind: Ingress
+# metadata:
+#   name: jenkins
+#   namespace: devops-tools
+# spec:
+#   tls:
+#   - secretName: tls
+#   backend:
+#     serviceName: jenkins-ui
+#     servicePort: 8080
