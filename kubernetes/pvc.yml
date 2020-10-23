@@ -1,4 +1,11 @@
 ---
+#### Starting with creation of the Jenkins NAMESPACE
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: devops-tools
+
+---
   
 ##### Creating the volume claim
 kind: PersistentVolumeClaim
