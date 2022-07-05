@@ -4,8 +4,8 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "jenkins-state-1988"
-    key            = "terraform.tfstate"
+    bucket         = "<your bucket here>"
+    key            = "<your statefile here>"
     region         = "us-east-1"
   }
 }
